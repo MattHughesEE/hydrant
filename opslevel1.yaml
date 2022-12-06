@@ -1,0 +1,7 @@
+version: 1
+service:
+  name: Cart Service
+  lifecycle: generally_available
+  tier: tier_1
+  product: Retail Website
+  owner: order_management_team
