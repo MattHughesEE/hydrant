@@ -31,3 +31,4 @@ spec:
   type: service
   lifecycle: experimental
   owner: core-services
+  dependsOn: ['cart-service']
