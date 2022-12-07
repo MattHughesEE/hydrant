@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: lightning-service
+  description: sample backstage component
+  tags:
+    - sample
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+spec:
+  type: service
+  lifecycle: experimental
+  owner: backend-engineering-team
+  subcomponentOf: gizmo
+  dependsOn:
+    - resource: cart-service
+  
