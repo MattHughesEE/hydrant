@@ -13,7 +13,7 @@ spec:
   type: service
   lifecycle: experimental
   owner: backend-engineering-team
-  subcomponentOf: gizmo
+  subcomponentOf: cart-service
   dependsOn:
-    - resource: cart-service
+    - resource:default/artist-look-up
   
