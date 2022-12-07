@@ -5,3 +5,5 @@ service:
   tier: tier_1
   product: Retail Website
   owner: order_management_team
+  dependencies:
+    - alias: shopping_cart_service
